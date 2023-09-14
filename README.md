@@ -1,0 +1,4 @@
+I made a website that I listed all countries in the world by using Countries GraphQL API. 
+I have one filter that I can search for any country and I have another filter that I grouped all countries according to their continents.
+When you click on one country you can see its continent in the filter above and when you click any continent you can only see the countries in that continent listed and you can only search for countries in that continent below. 
+Besides when you click on any continent it gives a different color and when you change the page of the list, it automatically selects the last country in the list.

@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.your-component {
+  margin: 40px;
+}
+
+
+
+#searchfilter {
+  background: linear-gradient(to left, #135e52, #032a2c);
+  border-color: black;
+  color: white;
+  border-width: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  position: absolute;
+  left: 43.5%;
+  top: 15px;
+}
+
+#continentfilter {
+  background: linear-gradient(to left, #135e52, #032a2c);
+  border-color: black;
+  color: white;
+  border-width: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  position: absolute;
+  left: 43.5%;
+  top: 60px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 130px;
+
+}
+
+li {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+button {
+  background-color: #a71b1b;
+  opacity: 85%;
+  color: #fff;
+  font-weight: 550;
+  font-size: 14px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 3px solid black;
+
+}
+
+button:disabled {
+  background-color: #d49e21;
+  cursor: not-allowed;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:not(:last-child) {
+  margin-right: 5px;
+}
